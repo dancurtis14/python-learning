@@ -33,3 +33,9 @@ print(alpha2)
 
 alphabet = alpha + alpha2
 print(alphabet)
+
+print(min(numbers))
+print(max(numbers))
+print(sum(numbers))
+print(len(numbers))
+
