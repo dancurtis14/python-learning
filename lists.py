@@ -17,3 +17,19 @@ del alpha[d_index]
 
 alpha.remove("c")
 print(alpha)
+
+alpha2 = ["g", "i", "h"]
+alpha2.sort()
+print(alpha2)
+
+alpha.insert(2, "c")
+alpha.insert(3, "d")
+print(alpha)
+
+alpha = ''.join(alpha)
+alpha2 = ''.join(alpha2)
+print(alpha)
+print(alpha2)
+
+alphabet = alpha + alpha2
+print(alphabet)
