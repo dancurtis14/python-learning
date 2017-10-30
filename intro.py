@@ -20,3 +20,6 @@ for letter in your_list:
 ice_cream = {"Alice" : "chocolate", "Beth" : "strawberry", "Chris" : "vanilla"}
 ice_cream["Alice"]
 print (ice_cream["Alice"])
+
+title = "Section 5: rewriting an immutable string"
+colon_position = title.index(':')
