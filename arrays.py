@@ -14,3 +14,12 @@ nums_2d = [
 ]
 
 print(nums_2d[1][3])
+
+print(nums_2d)
+pretty_print(nums_2d)
+
+letters = ["A", "B", "C", "D", "E"]
+letters_2d = [copy(letters), copy(letters), copy(letters)]
+pretty_print(letters_2d)
+letters_2d[0][0] = "F"
+pretty_print(letters_2d)
