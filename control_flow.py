@@ -11,5 +11,7 @@ name = "Megan"
 if age == 35:
     if name == "Megan":    
         print(name + " is 35")
+    elif name == "Steve":
+        print("Steve")
 else:
     print("Not 35")
